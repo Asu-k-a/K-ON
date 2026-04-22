@@ -1,0 +1,159 @@
+h1{
+    color: rgba(38, 1, 152);
+    font-size: 65px;
+}
+.class1{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 0 auto;
+}
+.class2{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+.one{
+    color: black;
+    font-size: 30px;
+}
+.two{
+    color: black;
+    font-size: 25px;
+    font-family:"simsun";
+}
+.team ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around
+}
+.team li{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.hr1{
+    margin-top: 147px;
+}
+.team1{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    text-decoration: underline overline;
+}
+.checkin{
+    width: 50px;
+    margin: 0 auto;
+}
+.checkin2{
+    font-style: normal;
+    color: black;
+    size: 50px;
+}
+.picture{
+    width: 1570px;
+    margin: 0px auto;
+}
+.form{
+    background-color: chocolate;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    background-size: 100% 100%;
+}
+.header{
+    width: 1690px;
+    height: 147px;
+    left: 0;
+    background-image: url("picture/title.png");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+}
+.header1{
+    width: 846px;
+    margin: 0 auto;
+}
+.guanzhu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+.guanzhu li{
+    margin-left: 40px;
+    margin-right: 100px;
+}
+.GZbt{
+    width: 300px;
+    background-color: rgb(98, 98, 98);
+    border-radius: 20px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("picture/background(1).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    size: 100%;
+    top: 0;
+    margin: 0 auto;
+}
+.form1{
+    background-color: bisque;
+}
+.show{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 60px;
+
+}
+.show-text{
+    width: 600px
+}
+.text1{
+    font-size: 20px;
+    text-indent: 40px;
+}
+.show-pic{ 
+    width: 1000px;
+    margin-left: 20px;
+}
+.show-pica{
+    margin-top: 48px;
+    border: 5px solid rgb(101, 58, 0);
+    margin-left: 40px;
+    width: 150;
+}
+.show-picb{
+    margin-bottom: 48px;
+    border: 5px solid rgb(37, 1, 128);
+    margin-left: 40px;
+    width: 150;
+}
+.show-picc{
+    margin-top: 48px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: 40px;
+    width: 150;
+}
+.show-picd{
+    margin-bottom: 48px;
+    border: 5px solid rgb(229, 255, 0);
+    margin-left: 40px;
+    width: 150;
+}
+.show-pice{
+    margin-top: 48px;
+    border: 5px solid rgb(255, 145, 0);
+    margin-left: 40px;
+    width: 150;
+}
+.nav{
+    margin-left: 40px;
+}
