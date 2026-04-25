@@ -2,16 +2,68 @@ h1{
     color: rgba(38, 1, 152);
     font-size: 65px;
 }
-.class1{
+a{
+    text-decoration: none;
+}
+.header{
+    width: 1690px;
+    height: 147px;
+    left: 0;
+    background-image: url("picture/title.png");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+}
+.header1{
+    width: 846px;
+    margin: 0 auto;
+}
+.hr1{
+    margin-top: 147px;
+}
+.nav1{
         color: rgb(0, 0, 0);
         font-size: 30px;
         font-weight: 600;
         margin-left: 0 auto;
 }
-.class2{
+.nav2{
     color: black;
     font-size: 25px;
     font-weight: 600;
+}
+.nav3{
+    width: 600px;
+    font-size: 20px;
+    text-indent: 40px;
+    margin-left: 100px;
+}
+.nav4{
+    overflow: hidden;
+}
+.nav-pic1{
+    width: 180px;
+    height: 260px;
+    float: right;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+.nav-pic2{
+    width: 180px;
+    height: 260px;
+    float: right;
+    margin-right: 600px;
+    margin-top: 30px;
+}
+.nav-pic3{
+    width: 180px;
+    height: 260px;
+    float: right;
+    margin-right: 600px;
+    margin-top: 10px;
 }
 .one{
     color: black;
@@ -22,23 +74,9 @@ h1{
     font-size: 25px;
     font-family:"simsun";
 }
-.team ul{
-    list-style: none;
-    display: flex;
-    padding: 0;
-    justify-content: space-around
-}
-.team li{
-    margin-right: 40px;
-    margin-left: 40px;
-}
-.hr1{
-    margin-top: 147px;
-}
-.team1{
-    border-radius: 20px;
-    background-color: blanchedalmond;
-    text-decoration: underline overline;
+.two:hover{
+    color: blue;
+    text-decoration: underline;
 }
 .checkin{
     width: 50px;
@@ -60,37 +98,6 @@ h1{
     width: 200px;
     height: 200px;
     background-size: 100% 100%;
-}
-.header{
-    width: 1690px;
-    height: 147px;
-    left: 0;
-    background-image: url("picture/title.png");
-    background-size: 100% 100%;
-    background-size: cover;
-    background-repeat: repeat-x;
-    opacity: 0.7;
-    position: fixed;
-    top: 0;
-}
-.header1{
-    width: 846px;
-    margin: 0 auto;
-}
-.guanzhu ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
-}
-.guanzhu li{
-    margin-left: 40px;
-    margin-right: 100px;
-}
-.GZbt{
-    width: 300px;
-    background-color: rgb(98, 98, 98);
-    border-radius: 20px;
 }
 body{
     width: 100vw;
@@ -123,6 +130,7 @@ body{
 .show-pic{ 
     width: 1000px;
     margin-left: 20px;
+    margin-top: 15px;
 }
 .show-pica{
     margin-top: 48px;
@@ -130,11 +138,17 @@ body{
     margin-left: 40px;
     width: 150;
 }
+.show-pica:hover{
+    box-shadow: 0px 0px 30px rgb(101, 58, 0);
+}
 .show-picb{
     margin-bottom: 48px;
     border: 5px solid rgb(37, 1, 128);
     margin-left: 40px;
     width: 150;
+}
+.show-picb:hover{
+    box-shadow: 0px 0px 30px rgb(37, 1, 128);
 }
 .show-picc{
     margin-top: 48px;
@@ -142,11 +156,17 @@ body{
     margin-left: 40px;
     width: 150;
 }
+.show-picc:hover{
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
 .show-picd{
     margin-bottom: 48px;
     border: 5px solid rgb(229, 255, 0);
     margin-left: 40px;
     width: 150;
+}
+.show-picd:hover{
+    box-shadow: 0px 0px 30px rgb(229, 255, 0);
 }
 .show-pice{
     margin-top: 48px;
@@ -154,6 +174,84 @@ body{
     margin-left: 40px;
     width: 150;
 }
+.show-pice:hover{
+    box-shadow: 0px 0px 30px rgb(255, 145, 0);
+}
 .nav{
     margin-left: 40px;
+}
+.menu{
+    background-color: rgb(199, 192, 46);
+    position: fixed;
+    top: 400px;
+    width: 120px;
+    display: flexbox;
+    border-radius: 0px 20px 20px 0px;
+    opacity: 0.4;
+}
+.menu:hover{
+    animation: menus 0.3s;
+    opacity: 1;
+    box-shadow: 0px 0px 30px rgb(255, 180, 180);
+}
+.menu li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 60px;
+    padding-top: 7px;
+    padding-left: 10PX;
+    border-radius: 7px;
+}
+.menu ul{
+    list-style: none;
+    padding: 0 25px
+}
+.c{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.c1{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 25px;
+    margin: 10px;
+}
+@keyframes menus {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+.team3{
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 30px rgb(128, 77, 2);
+}
+.team1{
+    display: inline-flex;
+    margin-left: 34px;
+}
+.team2{
+    display: inline-flex;
+    margin-left: 370px;
+}
+.team4{
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 30px rgb(128, 77, 2);
+}
+.team{
+    display: flex;
+    margin-left: 35px;
+}
+.dec{
+    float: inline-start;
+    height: 280px;
 }
